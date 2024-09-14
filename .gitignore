@@ -1,4 +1,7 @@
 **/__pycache__
 *.pyc
 venv
-*migrations/*
+*migrations
+.idea/
+flake8report
+.flake8
