@@ -5,3 +5,4 @@ venv
 .idea/
 flake8report
 .flake8
+.env

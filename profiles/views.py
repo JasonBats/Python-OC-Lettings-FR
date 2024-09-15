@@ -12,7 +12,6 @@ def profiles_index(request):
     """
     profiles_list = Profile.objects.all()
     context = {'profiles_list': profiles_list}
-    print(profiles_list.query)
     return render(request, 'profiles/profile_list.html', context)
 
 

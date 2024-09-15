@@ -17,3 +17,8 @@ def trigger_error(request):
     Triggers a test 500 error for testing purposes.
     """
     raise Exception("This is a test 500 error !")
+
+
+def trigger_error_2(request):
+    division_by_zero = 1 / 0
+    return division_by_zero
