@@ -4,5 +4,4 @@ venv
 *migrations
 .idea/
 flake8report
-.flake8
 .env
