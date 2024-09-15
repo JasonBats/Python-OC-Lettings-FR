@@ -75,3 +75,12 @@ Utilisation de PowerShell, comme ci-dessus sauf :
 
 - Pour activer l'environnement virtuel, `.\venv\Scripts\Activate.ps1` 
 - Remplacer `which <my-command>` par `(Get-Command <my-command>).Path`
+
+### Docker local check
+
+`docker pull jasonbats/oc_lettings_site`
+
+`docker run -d -p 8000:8000 jasonbats/oc_lettings_site:latest`
+[localhost:8000]()
+
+
