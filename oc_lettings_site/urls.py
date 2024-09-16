@@ -1,6 +1,6 @@
 from django.contrib import admin
-from django.urls import path, include, re_path
-from django.views.static import serve
+from django.urls import path, include
+
 
 from . import views, settings
 
@@ -15,5 +15,4 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('500/', views.trigger_error, name="trigger_error"),  # Test route erreur 500
     path('sentry-debug/', views.trigger_error_2),
-    # re_path(r'^static/(?P<path>.*)$', serve, {'document_root': settings.STATIC_ROOT}),
 ]
