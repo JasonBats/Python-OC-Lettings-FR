@@ -2,7 +2,7 @@ from django.contrib import admin
 from django.urls import path, include
 
 
-from . import views, settings
+from . import views
 
 """
 Defines URL patterns for the main app, mapping URLs to views.
