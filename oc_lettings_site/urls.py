@@ -15,5 +15,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('500/', views.trigger_error, name="trigger_error"),  # Test route erreur 500
     path('sentry-debug/', views.trigger_error_2),
-    re_path(r'^static/(?P<path>.*)$', serve, {'document_root': settings.STATIC_ROOT}),
+    # re_path(r'^static/(?P<path>.*)$', serve, {'document_root': settings.STATIC_ROOT}),
 ]
