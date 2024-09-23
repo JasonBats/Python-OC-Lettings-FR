@@ -6,11 +6,27 @@
 OC Lettings documentation
 =========================
 
-Add your content using ``reStructuredText`` syntax. See the
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-documentation for details.
+Orange County Lettings is a real estate rental company. On the website,
+you can browse various rental locations as well as user profiles.
 
+Technologies and programming languages
+--------------------------------------
+
+This application is developed with Python and Django.
+
+Data is stored in the SQLite3 database.
+
+The various platforms used are:
+
+   - GitHub, to store the code and each of its versions,
+   - Sentry, to monitor site performance,
+   - Docker, for code containerization,
+   - CircleCI, for continuous integration and delivery of the code,
+   - Render, for the deployment of the application.
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+
+   installation
+   run
