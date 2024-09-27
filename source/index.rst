@@ -6,7 +6,7 @@
 OC Lettings documentation
 =========================
 
-Hello ! Orange County Lettings is a real estate rental company. On the website,
+Orange County Lettings is a real estate rental company. On the website,
 you can browse various rental locations as well as user profiles.
 
 Technologies and programming languages

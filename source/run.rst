@@ -1,4 +1,4 @@
-Run project
+Getting started
 =================
 
 
@@ -18,21 +18,20 @@ Deploy
 
 - Push on your own repo
 - Link repo to railway.app or similar (Render, Google Cloud platform)
+    - **SECRET_KEY** (Django generated secret key to generate session ID for each user)
+    - **SENTRY_DSN** (Project's ID in sentry to track errors)
+
+.. image:: source/railway-env.jpg
+|
 - Link repo to your docker hub project
+
 - Set environment variables in GitHub:
+    - **SECRET_KEY** (Django generated secret key to generate session ID for each user)
+    - **DOCKER_PASSWORD**
+    - **DOCKER_USERNAME**
+.. image:: source/github-env.jpg
 
-.. code-block::
-
-    DOCKER_PASSWORD
-
-.. code-block::
-
-    DOCKER_USERNAME
-
-.. code-block::
-
-    SECRET_KEY
-
+|
 Testing
 ~~~~~~~
 - Run tests :
@@ -45,6 +44,8 @@ Testing
 .. code-block:: bash
 
     python coverage html
+
+- Report is generated at htmlcov/index.html
 
 Linting
 ~~~~~~~

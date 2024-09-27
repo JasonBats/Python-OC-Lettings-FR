@@ -67,3 +67,9 @@ Activate the environment
 .. code-block:: bash
 
     pip install -r requirements.txt
+
+- Initialiaze database
+
+.. code-block:: bash
+
+    python manage.py migrate
